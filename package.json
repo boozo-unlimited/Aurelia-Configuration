@@ -13,8 +13,8 @@
   },
   "license": "MIT",
   "author": "Dwayne Charrington <dwaynecharrington@gmail.com> (http://ilikekillnerds.com)",
-  "main": "dist/es2015/index.js",
-  "typings": "dist/es2015/index.d.ts",
+  "main": "dist/commonjs/index.js",
+  "typings": "dist/commonjs/index.d.ts",
   "repository": {
     "type": "git",
     "url": "http://github.com/Vheissu/Aurelia-Configuration"
@@ -55,9 +55,9 @@
   "jspm": {
     "registry": "npm",
     "main": "index",
-    "format": "amd",
+    "format": "cjs",
     "directories": {
-      "dist": "dist/es2015"
+      "dist": "dist/commonjs"
     },
     "dependencies": {
       "aurelia-dependency-injection": "^1.0.0",
