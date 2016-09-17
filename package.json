@@ -55,7 +55,7 @@
   "jspm": {
     "registry": "npm",
     "main": "index",
-    "format": "es2015",
+    "format": "amd",
     "directories": {
       "dist": "dist/es2015"
     },
